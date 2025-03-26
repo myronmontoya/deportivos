@@ -1,0 +1,129 @@
+.grid_contenedor {
+
+grid-template-columns: auto auto auto auto auto auto;
+grid-template-rows:  100px 100px 100px 200px 200px 100px 100px;
+display: grid;
+grid-template-areas:
+"prim prim prim prim prim prim"
+"segu_prim segu_prim segu_segu segu_segu segu_ter segu_ter"
+"ter_pri ter_segu ter_ter ter_cuar ter_quin ter_sex"
+"cua_pri cua_pri cua_pri cua_pri cua_seg cua_seg"
+"quin_pri quin_pri quin_seg quin_seg quin_seg quin_seg"
+"sex_pri sex_pri sex_pri sex_pri sex_pri sex_seg"
+"sep sep sep sep sep sep";
+
+
+
+;
+
+
+}
+/* primera parte */
+
+#primer_azul {
+grid-area: prim;
+background: skyblue;
+
+
+}
+
+
+/* segunda parte */
+#segu_primero {
+    background-color: rgb(206, 206, 170);
+    grid-area: segu_prim;
+}
+
+#segu_segundo {
+    background-color: rgb(255, 255, 157);
+    grid-area: segu_segu;
+}
+
+#segu_tercero {
+    background-color: rgb(206, 206, 170);
+    grid-area: segu_ter;
+}
+
+/* tercera  parte */
+
+#terc_primero {
+
+    background-color: rgb(57, 100, 56);
+    grid-area: ter_pri;
+}
+
+#terc_segundo {
+
+    background-color: rgb(246, 140, 202);
+    grid-area: ter_segu;
+}
+
+
+#terc_tercero {
+
+    background-color: rgb(57, 100, 56);
+    grid-area: ter_ter;
+}
+
+
+#terc_cuarto {
+
+    background-color: rgb(246, 140, 202);
+    grid-area: ter_cuar;
+}
+
+#terc_quinto {
+
+    background-color: rgb(57, 100, 56);
+    grid-area: ter_quin;
+}
+
+
+#terc_sexto {
+
+    background-color: rgb(246, 140, 202);
+    grid-area: ter_sex;
+}
+
+/* cuarto */
+
+#cuar_pri {
+    background-color: skyblue;
+    grid-area: cua_pri;
+}
+
+#cuar_segu {
+    background-color: rgb(102, 254, 135);
+    grid-area: cua_seg;
+}
+
+/* quinto */
+
+#quin_primero {
+    background-color: rgb(102, 254, 135);
+    grid-area: quin_pri;
+}
+
+#quin_segundo {
+    background-color: skyblue;
+    grid-area: quin_seg;
+}
+
+/* sexto */
+
+#sexto_primero {
+    background-color: rgb(22, 145, 0);
+    grid-area: sex_pri;
+}
+
+#sexto_segundo {
+    background-color: rgb(48, 26, 157);
+    grid-area: sex_seg;
+}
+
+/* septimo */
+
+#septimo {
+    background-color: rgb(59, 45, 50);
+    grid-area: sep;
+}
