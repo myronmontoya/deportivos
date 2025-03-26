@@ -1,3 +1,22 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;    
+}
+
+
 .grid_contenedor {
 
 grid-template-columns: auto auto auto auto auto auto;
